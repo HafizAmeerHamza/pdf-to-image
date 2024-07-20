@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "pdf2pic": "^3.1.1"
+  }
+}
