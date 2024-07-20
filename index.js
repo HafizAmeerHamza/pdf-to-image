@@ -12,8 +12,10 @@ const options = {
 
 try {
 
+    var sourceFilePath = "sample.pdf";
+
     // convert pdf pages and retun into buffer
-    const resolve = await fromPath("sample.pdf", options)
+    const resolve = await fromPath(sourceFilePath, options)
     .bulk(-1, { responseType: "buffer" });
 
     // console.log(resolve);
